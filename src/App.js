@@ -4,8 +4,9 @@ import { CampoTexto } from "./components/CampoTexto";
 function App() {
   return (
     <div className="App">
-      <Banner/>
-      <CampoTexto/>
+      <Banner />
+      
+      
       
     </div>
   );
