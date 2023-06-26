@@ -1,0 +1,20 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+}
+.Container-content-dev{
+  display: flex;
+  background-color: rgb(186, 138, 231);
+  height: 1000px;
+  width: 900px;
+  
+}
+
+.title-content{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 20rem;
+}
