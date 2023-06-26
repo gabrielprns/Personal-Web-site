@@ -7,13 +7,16 @@ export const Banner = () => {
     
     return (
       
-      <header className="banner">
+      <header className="banner menu-bar">
         
-        <h1 className="title logo">GP</h1>
-        <div className="container">
-          <Options/>
-          
+        <div className="b-2">
+          <h1 className="title logo">GP</h1>
+          <div className="container">
+            <Options/>
+            
+          </div>
         </div>
+        
         
       </header>
     )

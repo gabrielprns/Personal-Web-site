@@ -1,20 +1,102 @@
 .box {
   display: flex;
-  justify-content: space-between;
-  
   
   
 }
 .Container-content-dev{
-  display: flex;
-  background-color: rgb(186, 138, 231);
+  animation: change-color 6s ease-in-out infinite;
   height: 1000px;
-  width: 900px;
+  width: 45%;
   
 }
+.Container-content-dev-2{
+  background-color: rgb(26, 28, 78);
+  width: 100%;
+  
+  
+}
+
+.square-box{
+  border-style: double;
+  border-color: rgb(0, 0, 0);
+  background-color: rgba(227, 153, 153, 0.851);
+  border-width: 5px;
+  border-radius: 25px;
+  height: 410px;
+  width: 400px;
+  border-top-left-radius: 5px;
+  border-left-width: 15px;
+  
+ 
+}
+
+@keyframes change-color {
+
+  0% {
+    -webkit-color:rgb(44, 3, 44);
+    background-color: rgb(44, 3, 44);
+  }
+  20%{
+    -webkit-color: rgb(80, 6, 80);
+    background-color:rgb(80, 6, 80);
+
+  }
+
+  40% {
+    -webkit-color: rgb(148, 51, 148);
+    background-color: rgb(148, 51, 148);
+  }
+  
+  60% {
+   -webkit-color:rgb(213, 138, 213);
+   background-color: rgb(213, 138, 213);
+ }
+ 80% {
+   -webkit-color: rgb(148, 51, 148);
+   background-color: rgb(148, 51, 148);
+ }
+ 100% {
+   -webkit-color: rgb(80, 6, 80);
+   background-color:rgb(80, 6, 80);
+ }
+ 100% {
+   -webkit-color:rgb(44, 3, 44);
+   background-color: rgb(44, 3, 44);
+   
+ }
+}
+
+@keyframes change-title-color{
+  0%{
+    color: rgb(229, 167, 167);
+  }
+  20%{
+    color: rgb(75, 18, 18);
+  }
+
+  40%{
+    color: rgb(75, 18, 18);
+  }
+  
+  100%{
+    color:  rgb(229, 167, 167);
+  }
+}
+
 
 .title-content{
   margin-left: 2rem;
   margin-right: 2rem;
-  margin-top: 20rem;
+  margin-top: 10rem;
+}
+
+.title-1{
+  margin-left: 0.5rem;
+  animation: change-title-color 6s ease-in-out infinite;
+  
+}
+
+.title-2{
+  font-size: 50px;
+
 }
