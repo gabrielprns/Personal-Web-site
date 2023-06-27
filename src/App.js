@@ -1,14 +1,16 @@
 import Banner from "./components/Banner";
-import { TextField } from "./components/TextField";
+import { Boxes } from "./components/ContentField";
+
+import "./components/ContentField/style.css";
+import "./components/Banner/banner.css";
+import "./components/ContentField/Button/button.css";
 
 function App() {
   return (
     <div className="App">
       <Banner/>
-      <TextField/>
-      
-      
-      
+      <Boxes/>
+     
     </div>
   );
 }

@@ -1,17 +1,16 @@
-import "./banner.css";
 import { Options } from "./options";
 
 export const Banner = () => {
-    
-    
-    
     return (
       
-      <header className="banner menu-bar">
+      <header className="banner menu-bar bs">
         
-        <div className="b-2">
-          <h1 className="title logo">GP</h1>
-          <div className="container">
+        <div className="b-2 ts">
+          <div className="logo">
+            <h1 className="title">GP</h1>
+          </div>
+          
+          <div className="container ">
             <Options/>
             
           </div>
