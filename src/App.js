@@ -1,18 +1,19 @@
-import Banner from "./components/Banner";
-import { Boxes } from "./components/ContentField";
-
-import "./components/ContentField/style.css";
-import "./components/Banner/banner.css";
-import "./components/ContentField/Button/button.css";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Home from './pages/home';
 
 function App() {
   return (
-    <div className="App">
-      <Banner/>
-      <Boxes/>
-     
-    </div>
+    //rotas
+    <Router>
+      <Routes> 
+        <Route path="/" element={<Home/>}></Route>
+      </Routes>
+    </Router>
+
+    
   );
 }
 
 export default App;
+
+
