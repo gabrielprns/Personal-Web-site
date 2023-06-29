@@ -16,7 +16,7 @@ export const ButtonOut = () => {
   return (
 
     <Link to='/'>
-      <button className="btn btn-out">Voltar</button>
+      <button className="btn">Voltar</button>
     </Link>
     
   );

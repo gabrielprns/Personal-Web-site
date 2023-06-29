@@ -3,17 +3,17 @@
   
   
   
+  
 }
 .Container-content-dev{
   animation: change-color 6s ease-in-out infinite;
-  height: 1000px;
+  height: 740px;
   width: 45%;
+  
   
 }
 .Container-content-dev-2{
-  background-color: rgb(48, 48, 164);
-  background-position: 0 50%;
-  animation: gradient 4s ease-in-out infinite;
+  animation: change-color-2 6s ease-in-out infinite;
   width: 100%;
   
   
@@ -32,6 +32,55 @@
   border-left-width: 15px;
   
  
+}
+
+.square-box-tec{
+  border-style: double;
+  border-color: rgb(0, 0, 0);
+  background-color: rgba(230, 218, 141, 0.851);
+  border-width: 5px;
+  border-radius: 25px;
+  height: 410px;
+  width: 400px;
+  border-top-left-radius: 5px;
+  border-left-width: 15px;
+  
+ 
+}
+
+@keyframes change-color-2{
+  0% {
+    -webkit-color:rgb(12, 12, 75);
+    background-color: rgb(12, 12, 75);
+  }
+  20%{
+    -webkit-color:rgb(23, 23, 118);
+    background-color:rgb(23, 23, 118);
+
+  }
+
+  40% {
+    -webkit-color: rgb(43, 43, 166);
+    background-color:rgb(43, 43, 166);
+  }
+  
+  60% {
+   -webkit-color:rgb(77, 77, 207);
+   background-color: rgb(77, 77, 207);
+ }
+ 80% {
+    -webkit-color: rgb(43, 43, 166);
+    background-color:rgb(43, 43, 166);
+ }
+ 100% {
+    -webkit-color:rgb(23, 23, 118);
+    background-color:rgb(23, 23, 118);
+ }
+ 100% {
+    -webkit-color:rgb(12, 12, 75);
+    background-color: rgb(12, 12, 75);
+   
+ }
 }
 
 @keyframes change-color {
@@ -114,7 +163,7 @@
 .title-content{
   margin-left: 2rem;
   margin-right: 2rem;
-  margin-top: 15rem;
+  
 }
 
 .title-1{

@@ -1,11 +1,9 @@
 import { Options } from "./options";
 
-export const Banner = () => {
+export const Banner = (props) => {
     return (
-      
-      <header className="banner menu-bar bs">
-        
-        <div className="b-2 ts">
+      <header className={props.bs}>
+        <div className={props.ts}>
           <div className="logo">
             <h1 className="title">GP</h1>
           </div>

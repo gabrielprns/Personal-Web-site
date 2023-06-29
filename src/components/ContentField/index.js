@@ -1,17 +1,16 @@
-import { ContentField } from "./Elements/elements";
-import { LogoFields } from "./Elements/tecnologias";
-export const Boxes = () =>{
+
+export const Boxes = (props) =>{
   return(
     
-    <body className="box">
+    <div className="box">
       
       <div className="Container-content-dev">
-        <ContentField/> 
+        {props.content_1}
       </div>
       <div className="Container-content-dev-2">
-        <LogoFields/>
+        {props.content_2}
       </div>
-    </body>
+    </div>
     
       
     

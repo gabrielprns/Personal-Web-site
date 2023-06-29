@@ -1,6 +1,6 @@
 export const Options = ()=>{
   const options = ['Portfolio', 'Github', 'Linkedin']
-  const links = ['','https://github.com/gabrielprns','https://www.linkedin.com/in/gabriel-pedro-8b08ab1a2/']
+  const links = ['/portfolio','https://github.com/gabrielprns','https://www.linkedin.com/in/gabriel-pedro-8b08ab1a2/']
   
   
   return(
