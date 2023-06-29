@@ -1,4 +1,5 @@
 import { ContentField } from "./Elements/elements";
+import { LogoFields } from "./Elements/tecnologias";
 export const Boxes = () =>{
   return(
     
@@ -8,7 +9,7 @@ export const Boxes = () =>{
         <ContentField/> 
       </div>
       <div className="Container-content-dev-2">
-       
+        <LogoFields/>
       </div>
     </body>
     
