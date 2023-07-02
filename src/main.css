@@ -1,4 +1,3 @@
 @import "./components/ContentField/style.scss";
-@import "./components/Banner/banner.scss";
-@import "./components/Footer/footer.scss";
+@import "./components/Banner_Footer/banner_footer.scss";
 @import "./components/ContentField/Button/button.scss";
