@@ -1,5 +1,5 @@
 import { Infos } from './infos';
-import teste from './myphoto.jpg';
+import photo from './images/myphoto.jpg';
 import {useState} from 'react';
 
 export const Photo = () =>{
@@ -19,7 +19,7 @@ export const Photo = () =>{
   return(
     
     <div className="photos hs">
-      <img className='photo' src={teste} alt="Me"  onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+      <img className='photo' src={photo} alt="Me"  onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
       <div>{isHovering && (<Infos/>)}</div>
       {isNotHovering && (<h2 className='title-photo img-warning'>Passe o mouse em minha foto</h2>)}
         
