@@ -10,7 +10,7 @@ function App() {
       <Routes> 
         <Route path="/Portfolio_React" element={<Home/>}></Route>
         <Route path="/Portfolio_React/info" element={<Info/>}></Route>
-        <Route path="/Portfolio_React/portfolio" element={<Port/>}></Route>
+        <Route path="/Portfolio_React/Portfolio" element={<Port/>}></Route>
       </Routes>
     </Router>
 
