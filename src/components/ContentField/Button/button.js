@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Button = () => {
   return (
 
-    <Link to='/info'>
+    <Link to='/Portfolio_React/info'>
       <button className="btn">Saber mais</button>
     </Link>
     
