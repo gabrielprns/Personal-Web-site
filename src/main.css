@@ -1,3 +1,4 @@
 @import "./components/ContentField/style.scss";
 @import "./components/Banner_Footer/banner_footer.scss";
 @import "./components/ContentField/Button/button.scss";
+@import './index.css';
