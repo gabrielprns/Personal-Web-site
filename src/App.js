@@ -8,7 +8,7 @@ function App() {
     //rotas
     <Router>
       <Routes> 
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/Portfolio_React" element={<Home/>}></Route>
         <Route path="/info" element={<Info/>}></Route>
         <Route path="/portfolio" element={<Port/>}></Route>
       </Routes>

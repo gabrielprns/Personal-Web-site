@@ -15,7 +15,7 @@ export const Button = () => {
 export const ButtonOut = () => {
   return (
 
-    <Link to='/'>
+    <Link to='/Portfolio_React'>
       <button className="btn">Voltar</button>
     </Link>
     
