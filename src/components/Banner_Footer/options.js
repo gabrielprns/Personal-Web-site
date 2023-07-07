@@ -1,6 +1,6 @@
 export const Options = ()=>{
-  const options = ['Home', 'Portfolio', 'Github', 'Linkedin']
-  const links = ['/Portfolio_React', '/Portfolio_React/Portfolio','https://github.com/gabrielprns','https://www.linkedin.com/in/gabriel-pedro-8b08ab1a2/']
+  const options = ['Home', 'Github', 'Linkedin']
+  const links = ['/Portfolio_React', 'https://github.com/gabrielprns','https://www.linkedin.com/in/gabriel-pedro-8b08ab1a2/']
   
   
   return(
