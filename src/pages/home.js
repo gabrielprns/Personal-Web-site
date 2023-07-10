@@ -12,9 +12,9 @@ import { Photo } from "../components/ContentField/Elements/photo";
 function Home() {
   return (
     <div className="App">
-      <Banner bs="banner-footer menu-bar bs" ts="b-2 ts" />
-      <Boxes content_1={<ContentField hs="title-content  hs" button={<Button />} />}  content_2={<Photo/>} />
-      <Footer bs="banner-footer menu-bar bs" ts="footer ts"/>
+      <Banner header="banner-footer  bs" content="banner-content ts" />
+      <Boxes content_1={<ContentField button={<Button />} />}  content_2={<Photo/>} />
+      <Footer footer="banner-footer footer  bs" content="footer-content ts"/>
     </div> 
   );
 }

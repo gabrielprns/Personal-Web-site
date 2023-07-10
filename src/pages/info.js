@@ -11,9 +11,9 @@ import { LogoFields } from "../components/ContentField/Elements/tecnologias";
 export const Info = ()=>{
   return(
     <div className="App">
-      <Banner bs="banner-footer menu-bar" ts="b-2" />
-      <Boxes content_1={<ContentField hs="title-content" button={<ButtonOut/>} />} content_2={<LogoFields />}/>
-      <Footer bs="banner-footer menu-bar" ts="footer "/>
+      <Banner header="banner-footer" content="banner-content" />
+      <Boxes content_1={<ContentField button={<ButtonOut/>} />} content_2={<LogoFields />}/>
+      <Footer footer="banner-footer footer "content="footer-content"/>
     </div> 
   )
 }

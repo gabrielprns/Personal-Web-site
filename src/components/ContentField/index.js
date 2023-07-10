@@ -4,10 +4,10 @@ export const Boxes = (props) =>{
     
     <div className="box">
       
-      <div className="Container-content-dev">
+      <div className="Container-content-dev ">
         {props.content_1}
       </div>
-      <div className="Container-content-dev-2">
+      <div className="Container-content-dev-2 ">
         {props.content_2}
       </div>
     </div>
