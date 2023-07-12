@@ -75,6 +75,38 @@ a:link {
   animation: has_shown 1.5s ease-in-out forwards ;
 }
 
+.checkbox{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox .trace{
+  width: 90px;
+  height: 8px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 4px;
+  
+}
+
+.checkbox .trace:nth-child(1){
+  top: 26px;
+  
+}
+.checkbox .trace:nth-child(2){
+  top: 46px;
+  
+}
+.checkbox .trace:nth-child(3){
+  top: 66px;
+  
+}
+
+
 
 @media(max-width: 1500px){
   .banner-content{
@@ -92,11 +124,41 @@ a:link {
 }
 
 @media(max-width: 1000px){
-  .banner-content{
+  .logo{
     display: none;
   }
+  .container{
+    display: none;
+  }  
+  
 
-  .footer{
-    display: none;
-  }
 }
+
+.banner-footer.mobile{
+  height: 100vh;
+
+  
+}
+
+.container.mobile {
+  margin-top: 4rem;
+  margin-left: 12rem;
+  display: block;
+}
+
+.box.mobile{
+  display: none;
+}
+
+
+.menu{
+  display: none;
+}
+
+
+.mobile-bar{
+  display: block;
+}
+
+
+

@@ -1,15 +1,34 @@
+import React, { useState, useEffect } from 'react';
 
-export const MenuBar = ()=>{
+export const MenuBar = ({ updateStyle })=>{
+  const [isMobile, setIsMobile] = useState(false);
+
+  const handleResize = () => {
+    setIsMobile(window.matchMedia('(max-width: 1000px)').matches);
+  };
+
+  useEffect(() => {
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const handleClick = () => {
+    updateStyle(!isMobile);
+  };
   return(
     
-    <div class="checkbox-wrapper menu">
-      <input type="checkbox" id="toggle" />
-      <label for="toggle" class="checkbox">
-        <div class="trace"></div>
-        <div class="trace"></div>
-        <div class="trace"></div>
-      </label>
-      
+    
+    <div className={`checkbox-wrapper menu ${isMobile ? 'mobile-bar' : ''}`}>
+      <button className="checkbox btn-bar" onClick={handleClick}>
+        <span className="trace"></span>
+        <span className="trace"></span>
+        <span className="trace"></span>
+      </button>
     </div>
   
   )
