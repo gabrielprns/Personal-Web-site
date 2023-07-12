@@ -24,10 +24,8 @@ export const Banner = (props) => {
               
             </div>
           </div>
-        
-        
-        
       </header>
+      
     )
   
   

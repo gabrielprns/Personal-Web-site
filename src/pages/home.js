@@ -13,8 +13,6 @@ import { Photo } from "../components/ContentField/Elements/photo";
 
 
 function Home() {
-
-  
   return (
     
     <div className="App">

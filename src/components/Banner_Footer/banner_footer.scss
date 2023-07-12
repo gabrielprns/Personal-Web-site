@@ -129,26 +129,31 @@ a:link {
   }
   .container{
     display: none;
-  }  
+  }
+  
+  .banner-footer.mobile{
+    height: 100vh;
+    
+  
+    
+  }
+  
+  .container.mobile {
+    margin-top: 4rem;
+    margin-left: 12rem;
+    display: block;
+
+  }
+
+  .box.mobile{
+    display: none;
+  }
+  
+  
   
 
 }
 
-.banner-footer.mobile{
-  height: 100vh;
-
-  
-}
-
-.container.mobile {
-  margin-top: 4rem;
-  margin-left: 12rem;
-  display: block;
-}
-
-.box.mobile{
-  display: none;
-}
 
 
 .menu{
