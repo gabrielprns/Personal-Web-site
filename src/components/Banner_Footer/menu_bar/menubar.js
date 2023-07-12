@@ -23,7 +23,7 @@ export const MenuBar = ({ updateStyle })=>{
   return(
     
     
-    <div className={`checkbox-wrapper menu ${isMobile ? 'mobile-bar' : ''}`}>
+    <div className={`checkbox-wrapper ${isMobile ? 'mobile-bar' : 'menu'}`}>
       <button className="checkbox btn-bar" onClick={handleClick}>
         <span className="trace"></span>
         <span className="trace"></span>
