@@ -134,10 +134,14 @@ a:link {
   
     
   }
+
+  .banner-content{
+    justify-content: center;
+    align-content: center;
+  }
   
   .container.mobile {
     margin-top: 10rem;
-    margin-left: 12rem;
     display: block;
 
   }
@@ -151,6 +155,11 @@ a:link {
 @media(max-width: 420px){
   .banner-footer{
     width: 2000px;
+    
+  }
+  .banner-footer.mobile{
+    height: 1000vh;
+
   }
 
 }
