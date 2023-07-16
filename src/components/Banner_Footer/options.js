@@ -5,9 +5,11 @@ export const Options = ()=>{
   
   return(
     options.map((item,link)=>
-      <a href={links[link]} className="title">
+  
+      <a href={links[link]} className=" options-text title">
         <h1>{item}</h1>
       </a>
+
       )
     )
   

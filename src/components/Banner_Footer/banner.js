@@ -7,17 +7,22 @@ export const Banner = (props) => {
       <header className={props.header}>
           {props.Menu}
           
-          <div className={props.content}>
-            <div className="logo">
-              <h1 className="title">GP</h1>
+          <div className={props.align}>
+            <div className={props.content}>
+              <div className="logo">
+                <h1 className="title">GP</h1>
+              </div>
+                
+                <div className={props.container}>
+                  
+                  <Options/>
+                    
+                    
+                </div>
+                
             </div>
-            
-            <div className={props.container}>
-              <Options/>
-              
-              
+            <div></div>
             </div>
-          </div>
       </header>
       
       

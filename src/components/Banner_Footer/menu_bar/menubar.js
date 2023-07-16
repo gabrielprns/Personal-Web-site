@@ -4,7 +4,7 @@ export const MenuBar = ({ updateStyle })=>{
   const [isMobile, setIsMobile] = useState(false);
 
   const handleResize = () => {
-    setIsMobile(window.matchMedia('(max-width: 1300px)').matches);
+    setIsMobile(window.matchMedia('(max-width: 1500px)').matches);
   };
 
   useEffect(() => {

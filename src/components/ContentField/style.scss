@@ -1,14 +1,21 @@
+/*Componentes*/
+
 .App{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
   min-height: 100vh;
-  flex-flow: column;
+  min-width: 40vh;
+  
+  
 }
 
 
 .box {
-  height: 90vh;
   display: flex;
   flex-grow: 1;
-  flex-basis: auto;
+  height: 100%;
+  
   
   
 }
@@ -16,30 +23,21 @@
 .Container-content-dev{
   animation: change-color 6s ease-in-out infinite;
   width: 45%;
-  align-content: center;
-  
-  
-  
-  
   
 }
+
 .Container-content-dev-2{
   animation: change-color-2 6s ease-in-out infinite;
   width: 100%;
-  
-  
 }
 
 .title-content{
-  margin-top: 3rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  
-  
 }
 
 .photo{
-  height: 700px;
+  height: 600px;
   margin-top: 1rem;
   margin-left: 5rem;
   border-style: double;
@@ -52,7 +50,6 @@
 }
 
 .photos{
-  margin-top: 2.5rem;
   display: flex;
   flex-wrap: wrap;
   
@@ -115,6 +112,8 @@
   
  
 }
+
+/*Animations*/
 
 @keyframes change-color-2{
   0% {
@@ -220,11 +219,16 @@
   }
 }
 
+.photo:hover{
+  background-color: rgb(22, 60, 215);
+  opacity:50%;
+}
+
 .hs{
   animation: has_shown 2s ease-in-out forwards ;
 }
 
-
+/*Textos*/
 
 .title-photo{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -248,26 +252,10 @@
 
 }
 
-.photo:hover{
-  background-color: rgb(22, 60, 215);
-  opacity:50%;
-}
-
-@media(max-width: 1900px){
-  .photo{
-    height: 600px;
-  }
-
-  .box {
-    height: 100vh;
-    
-    
-  }
-}
+/*Responsividade*/
 
 @media(max-width: 1700px){
 
-  
   .square-box-tec{
     height: 500px;
     
@@ -299,13 +287,30 @@
 }
   
 @media(max-width: 1500px){
+  .img-warning{
+    display: none;
+  }
+
+  .img-photo{
+    display: none;
+  }
+
+  .photo:hover{
+    background-color: rgba(227, 153, 153, 0.851);
+    opacity:100%;
+  }
+
+
   .box {
-    height: 90vh;
     flex-flow: column;
     
   }
   .Container-content-dev{
     width: 100%;
+    height: 50%;
+  }
+  .Container-content-dev-2{
+    height: 100%;
   }
 
   .photo{
@@ -342,19 +347,10 @@
 
 }
 
-@media(max-width: 1300px){
-
-  
-  .Container-content-dev-2{
-    height: 100%;
-    
-    
-  }
+@media(max-width: 460px){
 
   .photo{
     height: 400px;
-    
-    
   }
 
   .img-photo{
@@ -370,10 +366,6 @@
     height: 300px;
     width: 500px;
     margin-bottom: 5rem;
-  }
-
-  .img-warning{
-    display: none;
   }
 
   .photo:hover{
@@ -395,38 +387,23 @@
 
 }
 
-@media(max-width: 700px){
-  .square-box-tec{
-    width: 425px;
-  }
-}
-
-@media(max-width: 500px){
-  .square-box-tec{
-    width: 375px;
-  }
-}
-
-@media(max-width: 430px){
-
+@media(min-height: 1000px){
   .box{
-    height: 1000vh;
-    width: 1000vh;
+    height: 100vh;
   }
 
 }
 
-@media(max-height: 800px){
-  .box{
-    height: 100%;
-    
-  }
-  
 
-}
 
-  
-/*Mobile*/
+
+
+
+
+
+
+
+
 
 
 

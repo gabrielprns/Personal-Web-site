@@ -24,9 +24,9 @@ function Home() {
     
     <div className="App">
       
-      <Banner header={`banner-footer bs ${componentStyle}`}  Menu={<MenuBar updateStyle={updateComponentStyle}/>}  content="banner-content" container={`container ts ${componentStyle}`}/>
+      <Banner header={`banner bs ${componentStyle}`}  Menu={<MenuBar updateStyle={updateComponentStyle}/>}  content={`banner-content ${componentStyle}`} align={`align ${componentStyle}`} container={`container ts ${componentStyle}`}/>
       <Boxes box={`box ${componentStyle}`} content_1={<ContentField title="title-content bs" button={<Button />} />}  content_2={<Photo/>} />
-      <Footer footer="banner-footer footer  bs" content="footer-content ts"/>
+      <Footer footer={`footer ${componentStyle}  bs`} content="footer-content ts"/>
     </div> 
   );
 }
