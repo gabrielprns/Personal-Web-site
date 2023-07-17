@@ -18,7 +18,7 @@ export const Info = ()=>{
   };
   return(
     <div className="App">
-      <Banner header={`banner ${componentStyle}`}  Menu={<MenuBar updateStyle={updateComponentStyle}/>}  content={`banner-content ${componentStyle}`} align={`align ${componentStyle}`} container={`container ${componentStyle}`}/>
+      <Banner header={`banner ${componentStyle}`}  Menu={<MenuBar updateStyle={updateComponentStyle}/>}  content={`banner-content ${componentStyle}`} align={`align ${componentStyle}`} container={`container ms ${componentStyle}`}/>
       <Boxes box={`box ${componentStyle}`} content_1={<ContentField title="title-content" button={<ButtonOut/>} />} content_2={<LogoFields />}/>
       <Footer footer="footer "content="footer-content"/>
     </div> 
