@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Button = () => {
   return (
 
-    <Link to='/Personal-Web-site/info'>
+    <Link to='/personal-web-site-nine-zeta/info'>
       <button className="btn">Saber mais</button>
     </Link>
     
@@ -15,7 +15,7 @@ export const Button = () => {
 export const ButtonOut = () => {
   return (
 
-    <Link to='/Personal-Web-site'>
+    <Link to='/personal-web-site-nine-zeta'>
       <button className="btn">Voltar</button>
     </Link>
     
