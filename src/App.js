@@ -7,8 +7,8 @@ function App() {
     //rotas
     <Router>
       <Routes> 
-        <Route path="/personal-web-site" element={<Home/>}></Route>
-        <Route path="/personal-web-site/info" element={<Info/>}></Route>      
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/info" element={<Info/>}></Route>      
       </Routes>
     </Router>
 
