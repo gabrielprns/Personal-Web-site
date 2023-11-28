@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import Banner from "../components/Banner_Footer";
 import { Boxes } from "../components/ContentField"
-import { ButtonOut } from "../components/ContentField/Button/button"
+import { Buttons } from "../components/ContentField/Button/button"
 import { ContentField } from "../components/ContentField/Elements/elements"
 import { Footer } from "../components/Banner_Footer/footer";
 import { LogoFields } from "../components/ContentField/Elements/tecnologias";
@@ -19,7 +19,7 @@ export const Info = ()=>{
   return(
     <div className="App">
       <Banner header={`banner ${componentStyle}`}  Menu={<MenuBar updateStyle={updateComponentStyle}/>}  content={`banner-content ${componentStyle}`} align={`align ${componentStyle}`} container={`container ms ${componentStyle}`}/>
-      <Boxes box={`box ${componentStyle}`} content_1={<ContentField title="title-content" button={<ButtonOut/>} />} content_2={<LogoFields />}/>
+      <Boxes box={`box ${componentStyle}`} content_1={<ContentField title="title-content" button={<Buttons text="Voltar" link="/"/>} />} content_2={<LogoFields />}/>
       <Footer footer="footer "content="footer-content"/>
     </div> 
   )

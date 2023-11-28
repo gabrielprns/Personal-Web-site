@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: theme
+spec:
+  options:
+    palette:
+      mode: light
+      secondary:
+        main: "#283593"
+        contrastText: "#fff"
+      primary:
+        main: "#1e88e5"
+        contrastText: "#fff"

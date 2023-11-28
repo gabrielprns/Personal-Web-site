@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: page
+spec:
+  id: SwnVlvn
+  title: Port
+  display: shell
+  content:
+    - component: Button
+      name: Button
+      props:
+        content: Saiba Mais
+        size: large
+        color: secondary
+        fullWidth: false
+      layout:
+        verticalAlign: end
+        horizontalAlign: center
